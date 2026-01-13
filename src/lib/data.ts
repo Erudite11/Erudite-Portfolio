@@ -7,7 +7,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/olaoluwa-oshiyoku",
   twitter: "https://x.com/DgtErudite",
   brand: "Erudite.portfolio",
-  avatarUrl: "https://avatars.githubusercontent.com/u/Erudite11",
+  avatarUrl: "/erudite.jpg",
 };
 
 export const projects: Array<{ id: number; title: string; description: string; techStack: string[]; liveUrl?: string; githubUrl?: string; }> = [
