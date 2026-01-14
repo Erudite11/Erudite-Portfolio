@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Icons } from "@/components/ui/Icons";
 
 const socialLinks = [
-  { key: "email", icon: Icons.email, href: `mailto:${personalInfo.email}`, label: "Email" },
+  { key: "whatsapp", icon: Icons.whatsapp, href: personalInfo.whatsapp, label: "WhatsApp" },
   { key: "github", icon: Icons.github, href: personalInfo.github, label: "GitHub" },
   { key: "linkedin", icon: Icons.linkedin, href: personalInfo.linkedin, label: "LinkedIn" },
   { key: "twitter", icon: Icons.x, href: personalInfo.twitter, label: "X (Twitter)" },

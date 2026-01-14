@@ -1,12 +1,12 @@
 export const personalInfo = {
-  name: "Olaoluwa Oshyioku (pka Erudite)",
+  name: "Olaoluwa Oshyioku (Erudite Tech)",
   role: "Frontend Developer",
   tagline: "I build accessible, performant web applications with modern technologies.",
   email: "eruditetechsub@gmail.com",
   github: "https://github.com/Erudite11",
   linkedin: "https://www.linkedin.com/in/olaoluwa-oshiyoku",
   twitter: "https://x.com/DgtErudite",
-  whatsapp: "https://wa.me/2348012345678", // Update with your real WhatsApp number
+  whatsapp: "https://wa.me/2348155842434",
   brand: "Erudite.portfolio",
   avatarUrl: "/erudite.jpg",
 };

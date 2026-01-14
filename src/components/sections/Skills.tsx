@@ -29,7 +29,7 @@ const categoryIcons: Record<string, (p: React.SVGProps<SVGSVGElement>) => JSX.El
   Tools: Icons.git,
 };
 
-const Group = ({ title, items, delay = 0, index }: { title: string; items: string[]; delay?: number; index: number }) => {
+const Group = ({ title, items, delay = 0 }: { title: string; items: string[]; delay?: number }) => {
   const CategoryIcon = categoryIcons[title];
   return (
     <Reveal delay={delay}>
@@ -93,7 +93,7 @@ export default function Skills() {
         
         <div className="grid gap-6 md:grid-cols-3">
           {skillCategories.map((cat, i) => (
-            <Group key={cat.title} title={cat.title} items={cat.items} delay={i * 100} index={i} />
+            <Group key={cat.title} title={cat.title} items={cat.items} delay={i * 100} />
           ))}
         </div>
       </Container>
