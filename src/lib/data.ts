@@ -6,6 +6,7 @@ export const personalInfo = {
   github: "https://github.com/Erudite11",
   linkedin: "https://www.linkedin.com/in/olaoluwa-oshiyoku",
   twitter: "https://x.com/DgtErudite",
+  whatsapp: "https://wa.me/2348012345678", // Update with your real WhatsApp number
   brand: "Erudite.portfolio",
   avatarUrl: "/erudite.jpg",
 };

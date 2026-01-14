@@ -6,7 +6,7 @@ import { Icons } from "@/components/ui/Icons";
 export default function Projects() {
   const hasProjects = projects.length > 0;
   return (
-    <section id="projects" aria-label="Projects" className="py-16 sm:py-20">
+    <section id="projects" aria-label="Projects" className="py-12 sm:py-16">
       <Container>
         <Reveal>
           <div className="text-center mb-16">

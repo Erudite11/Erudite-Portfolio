@@ -12,7 +12,7 @@ const socialLinks = [
 
 export default function Contact() {
   return (
-    <section id="contact" aria-label="Contact" className="py-16 sm:py-20 relative">
+    <section id="contact" aria-label="Contact" className="py-12 sm:py-16 relative">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-t from-accent/10 to-transparent rounded-full blur-3xl" />

@@ -70,7 +70,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" aria-label="Skills" className="py-16 sm:py-20 relative">
+    <section id="skills" aria-label="Skills" className="py-12 sm:py-16 relative">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-3xl" />

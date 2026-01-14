@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="absolute -bottom-8 left-20 w-72 h-72 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000" />
       </div>
       
-      <Container as="header" className="py-16 sm:py-20 md:py-24">
+      <Container as="header" className="py-12 sm:py-16 md:py-20">
         <div className="flex flex-col items-center text-center">
           <Avatar name={name} src={personalInfo.avatarUrl} size={140} />
           
