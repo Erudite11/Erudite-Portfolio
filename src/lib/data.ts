@@ -8,37 +8,19 @@ export const personalInfo = {
   twitter: "https://x.com/DgtErudite",
   whatsapp: "https://wa.me/2348155842434",
   brand: "Erudite.portfolio",
-  avatarUrl: "/erudite.jpg",
+  avatarUrl: "/Erudite.jpg",
 };
 
 export const projects: Array<{ id: number; title: string; description: string; techStack: string[]; liveUrl?: string; githubUrl?: string; }> = [
- {
-   id: 1,
-   title: "Design System & UI Kit",
-   description:
-     "Accessible component library and tokens powering multiple apps. Built with strict a11y, keyboard navigation, and WCAG AA contrast. Established theming, icons, and composition patterns for rapid delivery.",
-   techStack: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Storybook"],
-   githubUrl: undefined,
-   liveUrl: undefined,
- },
- {
-   id: 2,
-   title: "Analytics Dashboard",
-   description:
-     "High-performance analytics surface with virtualized tables and charts. Implemented caching and background revalidation, reducing median load time by 40% and improving perceived responsiveness.",
-   techStack: ["Next.js", "TypeScript", "TanStack Query", "D3.js"],
-   githubUrl: undefined,
-   liveUrl: undefined,
- },
- {
-   id: 3,
-   title: "E‑commerce Frontend",
-   description:
-     "Modern storefront with SSR/ISR, cart and checkout flows, and resilient error handling. Optimized images and code-splitting for a fast, consistent experience across devices.",
-   techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-   githubUrl: undefined,
-   liveUrl: undefined,
- },
+  {
+    id: 1,
+    title: "NIEEESA Academic Resource Portal",
+    description:
+      "A centralized academic resource portal built for NIEEESA at Olabisi Onabanjo University. Enables students to quickly select their academic level and access essential course materials, past questions, and PDFs in an organized and efficient way.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "SQLite", "Cloudinary"],
+    liveUrl: "https://oou-nieeesa-home.vercel.app/",
+    githubUrl: "https://github.com/Erudite11/NIEEESA-OOU-Home",
+  },
 ];
 
 export const skills = {

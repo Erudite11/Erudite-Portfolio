@@ -2,9 +2,9 @@ import { skills } from "@/lib/data";
 import { Container } from "@/components/ui";
 import { Reveal } from "@/components/ui/Reveal";
 import { Icons } from "@/components/ui/Icons";
-import type { ReactElement } from "react";
+import type { SVGProps, ReactElement } from "react";
 
-const iconMap: Record<string, (p: React.SVGProps<SVGSVGElement>) => ReactElement> = {
+const iconMap: Record<string, (p: SVGProps<SVGSVGElement>) => ReactElement> = {
   TypeScript: Icons.ts,
   JavaScript: Icons.js,
   HTML: Icons.html,
@@ -24,7 +24,7 @@ const iconMap: Record<string, (p: React.SVGProps<SVGSVGElement>) => ReactElement
   MongoDB: Icons.mongo,
 };
 
-const categoryIcons: Record<string, (p: React.SVGProps<SVGSVGElement>) => ReactElement> = {
+const categoryIcons: Record<string, (p: SVGProps<SVGSVGElement>) => ReactElement> = {
   Languages: Icons.ts,
   Frameworks: Icons.react,
   Tools: Icons.git,
