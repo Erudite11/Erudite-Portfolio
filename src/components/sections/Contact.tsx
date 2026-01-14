@@ -12,7 +12,7 @@ const socialLinks = [
 
 export default function Contact() {
   return (
-    <section id="contact" aria-label="Contact" className="py-24 sm:py-32 relative">
+    <section id="contact" aria-label="Contact" className="py-16 sm:py-20 relative">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-t from-accent/10 to-transparent rounded-full blur-3xl" />
@@ -42,7 +42,7 @@ export default function Contact() {
             {/* Email CTA */}
             <a 
               href={`mailto:${personalInfo.email}`}
-              className="group inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-accent to-accent-soft text-white font-medium text-lg hover:shadow-xl hover:shadow-accent/25 hover:-translate-y-1 transition-all duration-300"
+              className="group inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-accent mask-b-to-accent-hover text-white font-medium text-lg hover:shadow-xl hover:shadow-accent/25 hover:-translate-y-1 transition-all duration-300"
             >
               <Icons.email className="h-5 w-5" />
               {personalInfo.email}
@@ -66,7 +66,7 @@ export default function Contact() {
             </div>
             
             {/* Decorative text */}
-            <p className="mt-12 text-text-muted text-sm">
+            <p className="mt-12 text-text-muted text-sm flex items-center">
               Based in Nigeria • Open to remote opportunities worldwide
             </p>
           </div>

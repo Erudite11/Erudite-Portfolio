@@ -6,7 +6,7 @@ import { Icons } from "@/components/ui/Icons";
 export default function Projects() {
   const hasProjects = projects.length > 0;
   return (
-    <section id="projects" aria-label="Projects" className="py-24 sm:py-32">
+    <section id="projects" aria-label="Projects" className="py-16 sm:py-20">
       <Container>
         <Reveal>
           <div className="text-center mb-16">
@@ -27,8 +27,8 @@ export default function Projects() {
             {projects.map((p, i) => (
               <Reveal key={p.id} delay={i * 100}>
                 <div className="group relative h-full rounded-2xl border border-border/50 bg-surface/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-accent/30 hover:bg-surface hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1">
-                  {/* Project number badge */}
-                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-soft flex items-center justify-center text-white text-sm font-bold shadow-lg">
+                  {/* Project number badge - desktop only */}
+                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-soft hidden md:flex items-center justify-center text-white text-sm font-bold shadow-lg">
                     {i + 1}
                   </div>
                   

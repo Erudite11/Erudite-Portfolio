@@ -1,11 +1,10 @@
 import { about, personalInfo } from "@/lib/data";
 import { Container } from "@/components/ui";
 import { Reveal } from "@/components/ui/Reveal";
-import { Icons } from "@/components/ui/Icons";
 
 export default function About() {
   return (
-    <section id="about" aria-label="About" className="py-24 sm:py-32 relative">
+    <section id="about" aria-label="About" className="py-16 sm:py-20 relative">
       <Container>
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           {/* Left side - heading and decorative element */}
@@ -51,18 +50,16 @@ export default function About() {
                 <div className="mt-8 pt-6 border-t border-border/30 flex flex-wrap gap-4">
                   <a 
                     href={`mailto:${personalInfo.email}`}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-white font-medium hover:bg-accent-hover transition-all duration-300 text-sm"
+                    className="inline-flex items-center px-5 py-2.5 rounded-full bg-accent text-white font-medium hover:bg-accent-hover transition-all duration-300 text-sm"
                   >
-                    <Icons.email className="h-4 w-4" />
                     Let&apos;s Connect
                   </a>
                   <a 
                     href={personalInfo.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-border bg-surface/50 text-text-primary font-medium hover:border-accent hover:text-accent transition-all duration-300 text-sm"
+                    className="inline-flex items-center px-5 py-2.5 rounded-full border border-border bg-surface/50 text-text-primary font-medium hover:border-accent hover:text-accent transition-all duration-300 text-sm"
                   >
-                    <Icons.github className="h-4 w-4" />
                     View GitHub
                   </a>
                 </div>

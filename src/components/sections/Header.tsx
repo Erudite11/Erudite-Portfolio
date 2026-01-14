@@ -54,8 +54,8 @@ export default function Header() {
           ))}
         </div>
         <div className="flex items-center gap-3">
-          <a href="#projects" aria-label="View Projects" className="hidden md:inline-flex h-9 w-9 items-center justify-center rounded-md border border-border bg-surface text-text-primary hover:border-accent hover:text-accent transition">
-            <Icons.arrowDown className="h-4 w-4" />
+          <a href="#contact" className="hidden md:inline-flex px-4 py-2 text-sm font-medium rounded-full bg-accent text-white hover:bg-accent-hover transition-all duration-300">
+            Hire Me
           </a>
           <button
             type="button"
