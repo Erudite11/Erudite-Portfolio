@@ -4,8 +4,10 @@ import { Avatar } from "@/components/ui/Avatar";
 
 export default function Hero() {
   const name = personalInfo.name;
-  const [main, akaPart] = name.split("(pka");
-  const aka = akaPart ? `(pka${akaPart}` : "";
+  // Split name at opening parenthesis to separate main name from alias
+  const match = name.match(/^(.+?)(\s*\(.+\))$/);
+  const main = match ? match[1] : name;
+  const aka = match ? match[2].trim() : "";
 
   return (
     <section id="hero" aria-label="Introduction" className="relative overflow-hidden">

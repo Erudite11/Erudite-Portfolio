@@ -14,7 +14,7 @@ export default function Projects() {
               Portfolio
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-text-primary">
-              Featured <span className="bg-gradient-to-r from-accent to-accent-soft bg-clip-text text-transparent">Projects</span>
+              Featured <span className="bg-linear-to-r from-accent to-accent-soft bg-clip-text text-transparent">Projects</span>
             </h2>
             <p className="mt-4 text-text-secondary max-w-2xl mx-auto">
               Selected work demonstrating problem-solving, performance, and clarity.
@@ -28,7 +28,7 @@ export default function Projects() {
               <Reveal key={p.id} delay={i * 100}>
                 <div className="group relative h-full rounded-2xl border border-border/50 bg-surface/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-accent/30 hover:bg-surface hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1">
                   {/* Project number badge - desktop only */}
-                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-soft hidden md:flex items-center justify-center text-white text-sm font-bold shadow-lg">
+                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-linear-to-br from-accent to-accent-soft hidden md:flex items-center justify-center text-white text-sm font-bold shadow-lg">
                     {i + 1}
                   </div>
                   

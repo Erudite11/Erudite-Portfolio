@@ -21,7 +21,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div className="flex items-center gap-2">
-              <span className="text-lg font-semibold bg-gradient-to-r from-accent to-accent-soft bg-clip-text text-transparent">
+              <span className="text-lg font-semibold bg-linear-to-r from-accent to-accent-soft bg-clip-text text-transparent">
                 {personalInfo.brand}
               </span>
             </div>

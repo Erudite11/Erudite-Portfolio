@@ -26,7 +26,7 @@ export const projects: Array<{ id: number; title: string; description: string; t
 export const skills = {
   languages: ["TypeScript", "JavaScript", "HTML", "CSS", "SQL"],
   frameworks: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
-  tools: ["Git", "VS Code", "Figma", "Docker", "Vercel", "PostgreSQL", "MongoDB"],
+  tools: ["Git", "Docker", "Vercel", "PostgreSQL", "MongoDB", "Cloudinary", "Supabase"],
 };
 
 export const about = {
