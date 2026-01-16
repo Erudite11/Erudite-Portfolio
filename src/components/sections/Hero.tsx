@@ -26,7 +26,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight text-text-primary sm:text-5xl md:text-6xl">
               <span className="block">{main?.trim()}</span>
               {aka && (
-                <span className="block mt-2 text-2xl sm:text-3xl font-medium bg-gradient-to-r from-accent via-accent-soft to-accent bg-clip-text text-transparent animate-gradient">
+                <span className="block mt-2 text-2xl sm:text-3xl font-medium bg-linear-to-r from-accent via-accent-soft to-accent bg-clip-text text-transparent animate-gradient">
                   {aka.trim()}
                 </span>
               )}
